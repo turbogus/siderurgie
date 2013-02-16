@@ -20,7 +20,8 @@
 
 -- créé par turbogus
 
--- Licence GPL
+-- code licence gpl v2 ou superieur
+-- graphisme sous licence CC-BY-NC-SA
 
 --Description :
 --Mode permettant de créer de l'acier ( steel_ingot ) à partir du charbon de la glaise et du gravier.
@@ -181,7 +182,6 @@ minetest.register_node("siderurgie:panneaugaz", {
 	paramtype2 = "wallmounted",
 	sunlight_propagates = true,
 	walkable = false,
-	metadata_name = "sign",
 	selection_box = {
 		type = "wallmounted",
 		--wall_top = <default>
