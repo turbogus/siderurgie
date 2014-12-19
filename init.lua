@@ -33,7 +33,7 @@ minetest.register_craftitem("siderurgie:liquid_steel_spec", {
 minetest.register_craft({
 	type = "cooking",
 	output = "siderurgie:coke",
-	recipe = "default:coal_lump",
+	recipe = "default:coalblock", --ici, mettre un coalblock au lieu d'un coal lump sinon il y a conflit avec la recette du black dye.
 })
 
 minetest.register_craft({
